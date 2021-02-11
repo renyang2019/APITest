@@ -1,0 +1,51 @@
+{
+  "name": "test_get_funds_info",
+  "status": "passed",
+  "attachments": [
+    {
+      "name": "stdout",
+      "source": "80682a74-1811-4e44-b278-f4fd9218b618-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "start": 1612855884897,
+  "stop": 1612855885641,
+  "uuid": "2f2f02a8-36ac-454f-9984-e362b99e16e5",
+  "historyId": "0bacf7a4dc8e8f3ab0db201462b88a40",
+  "testCaseId": "aa12a53e675ee542b339fcbc7014f3d3",
+  "fullName": "test_JD.Test_JD#test_get_funds_info",
+  "labels": [
+    {
+      "name": "feature",
+      "value": "Test_JD"
+    },
+    {
+      "name": "suite",
+      "value": "test_JD"
+    },
+    {
+      "name": "subSuite",
+      "value": "Test_JD"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-U658RUAI"
+    },
+    {
+      "name": "thread",
+      "value": "11112-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_JD"
+    }
+  ]
+}

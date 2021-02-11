@@ -1,0 +1,61 @@
+{
+  "name": "test_search_goods[巧克力]",
+  "status": "passed",
+  "attachments": [
+    {
+      "name": "stdout",
+      "source": "16fd903f-82a3-460d-b717-181969e5f534-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "search_goods",
+      "value": "'巧克力'"
+    }
+  ],
+  "start": 1612855884861,
+  "stop": 1612855884862,
+  "uuid": "3a7cfbb5-535c-45e9-8001-87ffca4e0270",
+  "historyId": "ef685653ed98dcef7e289e733b0aa14b",
+  "testCaseId": "dd0135b5f685ff48be53f953679fa3ad",
+  "fullName": "test_JD.Test_JD#test_search_goods",
+  "labels": [
+    {
+      "name": "story",
+      "value": "test_search_goods"
+    },
+    {
+      "name": "feature",
+      "value": "Test_JD"
+    },
+    {
+      "name": "suite",
+      "value": "test_JD"
+    },
+    {
+      "name": "subSuite",
+      "value": "Test_JD"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-U658RUAI"
+    },
+    {
+      "name": "thread",
+      "value": "11112-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_JD"
+    }
+  ]
+}

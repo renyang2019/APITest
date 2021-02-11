@@ -1,0 +1,61 @@
+{
+  "name": "test_login_by_account[users1]",
+  "status": "passed",
+  "attachments": [
+    {
+      "name": "stdout",
+      "source": "ac6b131c-a6b9-41dd-b8aa-57695b3e30cd-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "users",
+      "value": "{'user_name': 'RenYang', 'pwd': '123'}"
+    }
+  ],
+  "start": 1612855884892,
+  "stop": 1612855884893,
+  "uuid": "b3ff9ee3-0952-43d0-af79-8d645883f22e",
+  "historyId": "4bdd11daf20572bab6aca1234acb0011",
+  "testCaseId": "85a5d5bc905df033b72d10a2b9929168",
+  "fullName": "test_JD.Test_JD#test_login_by_account",
+  "labels": [
+    {
+      "name": "story",
+      "value": "test_login_by_account"
+    },
+    {
+      "name": "feature",
+      "value": "Test_JD"
+    },
+    {
+      "name": "suite",
+      "value": "test_JD"
+    },
+    {
+      "name": "subSuite",
+      "value": "Test_JD"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-U658RUAI"
+    },
+    {
+      "name": "thread",
+      "value": "11112-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_JD"
+    }
+  ]
+}

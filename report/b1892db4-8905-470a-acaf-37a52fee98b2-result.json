@@ -1,0 +1,52 @@
+{
+  "name": "test_purchase_order",
+  "status": "passed",
+  "start": 1612855884879,
+  "stop": 1612855884879,
+  "uuid": "a9b56d28-cc3a-4e1a-9656-9d05691a4602",
+  "historyId": "fc0ad48cf18666905f9cc81f9669c172",
+  "testCaseId": "694efc9a4cfa3db2f94084071948e119",
+  "fullName": "test_JD.Test_JD#test_purchase_order",
+  "labels": [
+    {
+      "name": "feature",
+      "value": "Test_JD"
+    },
+    {
+      "name": "tag",
+      "value": "functional_test"
+    },
+    {
+      "name": "tag",
+      "value": "@pytest.mark.skipif(condition=False, reason='skip')"
+    },
+    {
+      "name": "suite",
+      "value": "test_JD"
+    },
+    {
+      "name": "subSuite",
+      "value": "Test_JD"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-U658RUAI"
+    },
+    {
+      "name": "thread",
+      "value": "11112-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_JD"
+    }
+  ]
+}
