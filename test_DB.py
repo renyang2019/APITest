@@ -5,7 +5,13 @@ import pymysql
 
 
 class Test_DB:
-    def test_DB_query(self):
+    sql = '''select stu.dept_id,stu.stu_id,stu.stu_name,A.sum_score from
+    stu inner join (select stu_id ,sum(score) as sum_score from sc group by stu_id)A 
+    on A.stu_id=stu.stu_id inner join dept on dept.dept_id=stu.dept_id group by stu.dept_id,stu_id;
+    '''
+
+    def test_DB_query(self, sql):
+        sql = self.sql
 
         # 打开数据库连接
         db = pymysql.connect("localhost", "testuser", "test123", "TESTDB", charset='utf8')
@@ -14,8 +20,7 @@ class Test_DB:
         cursor = db.cursor()
 
         # SQL 查询语句
-        sql = "SELECT * FROM EMPLOYEE \
-               WHERE INCOME > %s" % (1000)
+
         try:
             # 执行SQL语句
             cursor.execute(sql)
@@ -37,3 +42,7 @@ class Test_DB:
 
         # 关闭数据库连接
         db.close()
+
+
+if __name__ == '__main__':
+    pytest.main(['-s', "test_DB.py"])

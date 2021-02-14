@@ -13,4 +13,4 @@ def test_b():
 
 
 if __name__ == '__main__':
-    pytest.main("-s  test_abc.py")  # 调用pytest的main函数执行测
+    pytest.main(['-s', "test_DB.py"])  # 调用pytest的main函数执行测
